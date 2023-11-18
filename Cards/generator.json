@@ -1,0 +1,11 @@
+{
+  "$schema": "../schemas/card.schema.json",
+  "id": "infernitytestingmod_generator",
+  "nameTerm": "infernitytestingmod_generator_name",
+  "descriptionTerm": "infernitytestingmod_generator_description",
+  "icon": "stove",
+  "value": 25,
+  "type": "Structures",
+  "script": "InfernityTestingModNS.Generator",
+  "_IsBuilding": true
+}

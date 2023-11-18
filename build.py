@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import os
 import shutil
 import subprocess
@@ -9,8 +11,7 @@ import json
 # ----- CONFIGURE THESE -----
 SYNC_FOLDERS = ["Blueprints", "Boosterpacks", "Cards", "Icons", "Sounds"] # folders to be synced, such as Cards, Blueprints, Icons, etc.
 COPY_FILES = ["manifest.json", "localization.tsv"] # individual files to copy, such as manifest.json, localization.tsv, etc. (the mod dll is copied automatically)
-MODS_ROOT = Path(os.environ["userprofile"]) / Path("AppData/LocalLow/sokpop/Stacklands/Mods") # windows only, can be hardcoded with the below line instead
-# MODS_ROOT = Path("C:/Users/cyber/AppData/LocalLow/sokpop/Stacklands/Mods").resolve()
+MODS_ROOT = Path("/home/infernity/.local/share/Steam/steamapps/compatdata/1948280/pfx/drive_c/users/steamuser/AppData/LocalLow/sokpop/Stacklands/Mods").resolve()
 
 MOD_BIN = Path("./bin/Debug/netstandard2.1").resolve()
 

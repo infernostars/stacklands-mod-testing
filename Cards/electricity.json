@@ -1,0 +1,9 @@
+{
+  "$schema": "../schemas/card.schema.json",
+  "id": "infernitytestingmod_electricity",
+  "nameTerm": "infernitytestingmod_electricity_name",
+  "descriptionTerm": "infernitytestingmod_electricity_description",
+  "icon": "bone_staff",
+  "value": 1,
+  "type": "Resources"
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "../schemas/blueprint.schema.json",
+  "id": "infernitytestingmod_blueprint_generator",
+  "nameTerm": "infernitytestingmod_generator_name",
+  "group": "Building",
+  "subprints": [
+    {
+      "RequiredCards": "iron_bar, iron_bar, iron_bar, stone, stone, stone, wood, wood",
+      "ResultCard": "infernitytestingmod_generator",
+      "Time": 15,
+      "StatusTerm": "infernitytestingmod_idea_generator_creation_status"
+    }
+  ]
+}
