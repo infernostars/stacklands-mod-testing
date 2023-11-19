@@ -3,18 +3,31 @@
   "id": "infernitytestingmod_blueprint_electricity",
   "nameTerm": "infernitytestingmod_electricity_name",
   "group": "Basic",
+  "needsExactMatch": false,
   "subprints": [
     {
       "RequiredCards": "infernitytestingmod_generator, wood",
       "ResultCard": "infernitytestingmod_electricity",
       "Time": 5,
-      "StatusTerm": "infernitytestingmod_idea_generator_generating_status"
+      "StatusTerm": "infernitytestingmod_generator_generating_status"
     },
     {
       "RequiredCards": "infernitytestingmod_generator, stick",
       "ResultCard": "infernitytestingmod_electricity",
+      "Time": 5,
+      "StatusTerm": "infernitytestingmod_generator_generating_status"
+    },
+    {
+      "RequiredCards": "infernitytestingmod_generator, plank",
+      "ResultCard": "infernitytestingmod_electricity",
+      "Time": 5,
+      "StatusTerm": "infernitytestingmod_generator_generating_status"
+    },
+    {
+      "RequiredCards": "infernitytestingmod_generator, charcoal",
+      "ResultCard": "infernitytestingmod_electricity",
       "Time": 3,
-      "StatusTerm": "infernitytestingmod_idea_generator_generating_status"
+      "StatusTerm": "infernitytestingmod_generator_generating_status"
     }
   ]
 }

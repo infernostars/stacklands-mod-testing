@@ -8,7 +8,7 @@
       "RequiredCards": "iron_bar, iron_bar, iron_bar, stone, stone, stone, wood, wood",
       "ResultCard": "infernitytestingmod_generator",
       "Time": 15,
-      "StatusTerm": "infernitytestingmod_idea_generator_creation_status"
+      "StatusTerm": "infernitytestingmod_generator_creation_status"
     }
   ]
 }

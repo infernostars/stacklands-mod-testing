@@ -20,12 +20,18 @@ namespace InfernityTestingModNS
     {
         protected override bool CanHaveCard(CardData otherCard)
         {
-            if (otherCard.Id == "wood" || otherCard.Id == "stick")
+            if (otherCard.Id is "wood" or "stick" or "plank" or "charcoal")
             {
                 return true;
             }
             return base.CanHaveCard(otherCard);
         }
+
+        public override bool CanHaveCardsWhileHasStatus()
+        {
+            return true;
+        }
+        public override bool DetermineCanHaveCardsWhenIsRoot => true;
     }
 
 }
